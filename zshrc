@@ -27,3 +27,7 @@ bindkey "^[[B" history-beginning-search-forward-end
 
 # Aliases
 alias ls='ls -G'
+alias update_brew='brew upgrade && brew cleanup && brew cask upgrade && brew cleanup'
+alias delete_cache='rm -rf ~/Library/Caches'
+alias v='vim .'
+alias gv='gvim .'
