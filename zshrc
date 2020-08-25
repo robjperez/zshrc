@@ -31,3 +31,9 @@ alias update_brew='brew upgrade && brew cleanup && brew cask upgrade && brew cle
 alias delete_cache='rm -rf ~/Library/Caches'
 alias v='vim .'
 alias gv='gvim .'
+
+function gadd () git add $1
+function gcommit () git commit -m $1
+function gpush () git push origin HEAD
+function gstatus () git status
+function giadd() git add -p
