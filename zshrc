@@ -35,5 +35,6 @@ alias gv='gvim .'
 function gadd () git add $1
 function gcommit () git commit -m $1
 function gpush () git push origin HEAD
-function gstatus () git status
-function giadd() git add -p
+function gst () git status $1
+function giadd () git add -p
+function gdiff () git diff $1
