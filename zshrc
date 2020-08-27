@@ -38,3 +38,4 @@ function gpush () git push origin HEAD
 function gst () git status $1
 function giadd () git add -p
 function gdiff () git diff $1
+function ghelp () echo "Available commands: gadd, gcommit, gpush, gst, giadd, gdiff"
