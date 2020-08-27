@@ -1,4 +1,4 @@
-source ~/path.zsh
+source ~/.path.zsh
 
 autoload -Uz compinit && compinit
 #
